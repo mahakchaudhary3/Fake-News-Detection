@@ -12,8 +12,8 @@ st.write("Enter a news article below to check if it is Fake or Real.")
 # 🔥 Cache model so it doesn't retrain every time
 @st.cache_resource
 def train_model():
-    fake = pd.read_csv("Fake.csv", encoding="utf-8", engine="python", on_bad_lines="skip")
-    true = pd.read_csv("True.csv", encoding="utf-8", engine="python", on_bad_lines="skip")
+    fake = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/Fake.csv")
+    true = pd.read_csv("https://raw.githubusercontent.com/selva86/datasets/master/True.csv")    
 
     fake["label"] = 0
     true["label"] = 1
