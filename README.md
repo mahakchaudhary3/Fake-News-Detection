@@ -1,4 +1,4 @@
-# Fake-News-Detection
+# Fake News Detection Web App
 
 ## Description
 This project is a Machine Learning based web application that detects whether a news article is Fake or Real using NLP techniques.
@@ -20,6 +20,9 @@ This project is a Machine Learning based web application that detects whether a 
 - Detect Fake or Real News
 - Shows Confidence Score
 - Simple Web Interface
+
+## Live Demo
+https://fake-news-detection-dnqq6dj9yerjx97avux2sm.streamlit.app/
 
 ## Note
 Dataset is not uploaded due to large file size.
